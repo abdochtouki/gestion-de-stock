@@ -1,7 +1,7 @@
 //pour creer un base de données
 CREATE DATABASE stockage;
 // pour creer le tableau stocks
-CREATE TABLE items (
+CREATE TABLE stocks (
     item_id INT PRIMARY KEY,
     name VARCHAR(100),
     price DECIMAL(10, 2),
